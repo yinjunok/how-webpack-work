@@ -1,6 +1,6 @@
 
     (function(modules) {
-      function require(id) {
+      function require(id) { //🌟
         const [fn, mapping] = modules[id];
 
         function localRequire(name) {
@@ -28,6 +28,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function exec() {
   // 这是一段注释
   var 这是一个变量 = '这是一个变量';
+  console.log(_hello.default, _world.default, '测试', 这是一个变量);
 } // 执行
 
 
